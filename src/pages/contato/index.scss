@@ -1,4 +1,64 @@
 .contatopage{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
 
-    
+
+
+.fundo{
+    background-color: rgb(177, 173, 173);
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+    text-align: center;
+    border: solid 2px #000000;
+    box-shadow: 0 4px 8px rgba(182, 167, 126, 0.1);
+    box-shadow: 3px 3px 5px rgba(97, 70, 70, 0.514);
+    flex-direction: column;
+}
+
+h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nome{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+
+input{
+width: 377px;
+height: 37px;
+}
+
+select{
+width: 177px;
+}
+
+.butão{
+width: 200px;
+height: 45px;
+border-radius: 9px;
+border: solid 1px #000000;
+margin-top: 140px;
+}
+
+.butão:hover{
+    background-color: rgb(110, 109, 109);
+    color: white;
+    cursor: pointer;
+}
+
+.passe{
+width: 200px;
+border-radius: 10px;
+border: solid 1px #000000;
+background-color: wheat;
+
 }
